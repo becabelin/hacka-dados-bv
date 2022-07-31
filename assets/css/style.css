@@ -1,0 +1,345 @@
+/* Geral */
+
+html {
+    font-family: "Inter", sans-serif;
+    color: #3D3D3D;
+    background: linear-gradient(103.44deg, #1177D8 34.02%, #0080DB 100%);
+}
+
+h1,
+h2,
+h1,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    margin-left: 17%;
+}
+
+body {
+    margin-left: 20px !important;
+}
+
+/* Corpo */
+
+.celular {
+    width: 22vw;
+    height: 90vh;
+    margin: 2% 0% 0% 37%;
+    background: #FFFFFF;
+    border: 3px solid #CECECE;
+    border-radius: 30px;
+}
+
+/* Header */
+
+.logo {
+    position: absolute;
+    width: 32px;
+    height: 23px;
+    margin: 15px;
+}
+
+.account {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 19% !important;
+}
+
+@media (min-width: 1400px) {
+    .logo {
+        position: absolute;
+        width: 43px;
+        height: 30px;
+        margin: 15px;
+    }
+
+    .account {
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 19% !important;
+    }
+}
+
+/*  Geral: Ícones */
+
+.icone {
+    width: 24px !important;
+    height: 24px !important;
+    margin-left: 15px;
+}
+
+@media (min-width: 1400px) {
+    .icone {
+        width: 32px !important;
+        height: 32px !important;
+        margin-left: 15px;
+    }
+}
+
+/* Nome do usuário */
+
+.usuario {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media (min-width: 1400px) {
+    .usuario {
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 10%;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+/* Ocultar */
+
+.ocultar {
+    margin-top: 26%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ocultar p {
+    color: #5069D8;
+    margin-top: -23px;
+    margin-left: 16%
+}
+
+@media (min-width: 1400px) {
+    .ocultar {
+        margin-top: 32%;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .ocultar p {
+        color: #5069D8;
+        margin-top: -26px;
+        margin-left: 14%
+    }
+}
+
+/* Saldos */
+
+.saldos {
+    padding: 10px 0px;
+}
+
+.saldo {
+    margin-top: 0%;
+    font-size: 12px;
+}
+
+.valor {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #5069D8;
+    margin-bottom: -15px;
+}
+
+.seta,
+.seta-2 {
+    width: 20px;
+    margin-top: -50%;
+    margin-left: 36%;
+}
+
+.seta-2 {
+    margin-left: 40%;
+}
+
+@media (min-width: 1400px) {
+    .saldos {
+        padding: 16px 0px;
+    }
+
+    .saldo {
+        font-size: 14px;
+    }
+
+    .valor {
+        font-size: 20px;
+    }
+
+    .seta,
+    .seta-2 {
+        width: 22px;
+        margin-left: 32%;
+    }
+
+    .seta-2 {
+        margin-left: 36%;
+    }
+}
+
+/* Notificação de Financiamentos */
+
+.notificacao {
+    margin: 25px 15px;
+    background: #EBF6E9;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.notificacao p {
+    margin-top: -12%;
+    margin-bottom: 15%;
+    display: flex;
+    color: #315826;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80%;
+}
+
+.notificacao .icon {
+    display: flex;
+    margin: 3px;
+    width: 20px;
+}
+
+.notificacao .seta {
+    display: flex;
+    margin-top: -28%;
+    margin-left: 95%;
+    width: 18px;
+    margin-bottom: 10px;
+}
+
+.notificacao .seta-maior {
+    display: flex;
+    margin-top: -28%;
+    margin-left: 95%;
+    width: 18px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1400px) {
+    .notificacao {
+        margin: 25px 15px;
+        padding: 12px;
+    }
+
+    .notificacao p {
+        margin-top: -6%;
+        margin-bottom: 15%;
+        display: flex;
+        color: #315826;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .notificacao .icon {
+        display: flex;
+        margin: 3px;
+        width: 24px;
+    }
+
+    .notificacao .seta {
+        display: flex;
+        margin-top: -20%;
+        margin-left: 97%;
+        width: 18px;
+        margin-bottom: 8px;
+    }
+
+    .notificacao .seta-maior {
+        display: flex;
+        margin-top: -24%;
+        margin-left: 97%;
+        margin-bottom: 10px;
+        width: 18px;
+    }
+}
+
+/* Ações */
+
+.carrossel {
+    display: flex;
+    margin-left: 20px;
+}
+
+.actions {
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 50%;
+    height: auto;
+    background: #526ED5;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.actions img {
+    width: 24px;
+    margin-top: 14px;
+}
+
+@media (min-width: 1400px) {
+    .carrossel {
+        margin-top: 16%;
+    }
+
+    .actions {
+        margin-top: -10px;
+        margin-right: 10px;
+        width: 50%;
+        height: auto;
+        background: #526ED5;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    .actions p {
+        width: 70%;
+    }
+
+    .actions img {
+        width: 24px;
+        margin-top: 14px;
+    }
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn a {
+    background: #FFFFFF;
+    border: #FFFFFF solid 1px;
+    border-radius: 50px;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    transition: 0.5s;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    background: none;
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
